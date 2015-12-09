@@ -41,7 +41,6 @@ system/bin/imscmservice
 system/bin/imsdatadaemon
 system/bin/imsqmidaemon
 system/bin/ims_rtp_daemon
-system/bin/InputEventFind
 system/bin/irsc_util
 system/bin/loc_launcher
 system/bin/mm-pp-daemon
