@@ -18,7 +18,7 @@ PRODUCT_NAME := broken_angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
 
-TARGET_VENDOR := huawei
+TARGET_VENDOR := Huawei
 
 # Broken Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
