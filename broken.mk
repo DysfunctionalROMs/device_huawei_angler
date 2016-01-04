@@ -20,6 +20,10 @@ PRODUCT_MODEL := Nexus 6P
 
 TARGET_VENDOR := huawei
 
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Jarrod Worlitz (drgroovestarr)"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
     BUILD_FINGERPRINT=google/angler/angler:6.0/MDB08M/2353240:user/release-keys \
