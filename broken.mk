@@ -10,8 +10,8 @@ $(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
-
-#DEVICE_PACKAGE_OVERLAYS += device/huawei/angler/overlay-cm
+$(call inherit-product, vendor/huawei/angler/device-vendor.mk)
+DEVICE_PACKAGE_OVERLAYS += device/huawei/angler/overlay-cm
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := broken_angler
