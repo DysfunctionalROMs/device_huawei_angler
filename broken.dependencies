@@ -1,9 +1,9 @@
 [
   {
   "remote": "github",
-  "repository": "DespairFactor/angler",
+  "repository": "drgroovestarr/kylo_kernel_angler",
   "target_path": "kernel/huawei/angler",
-  "branch":      "6.0.1"
+  "branch":      "m6.0.1"
   },
   {
     "remote": "github",
