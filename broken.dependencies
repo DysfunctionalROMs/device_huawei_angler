@@ -6,6 +6,12 @@
   "branch":      "m6.0.1"
   },
   {
+  "remote": "github",
+  "repository": "drgroovestarr/vendor_huawei",
+  "target_path": "vendor/huawei",
+  "branch":      "m6.0.1"
+  },
+  {
     "remote": "github",
     "repository": "sultanxda/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
