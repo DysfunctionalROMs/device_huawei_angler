@@ -23,3 +23,8 @@ TARGET_VENDOR := Huawei
 # Broken Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	DEVICE_MAINTAINERS="Jarrod Worlitz (drgroovestarr)"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=angler \
+    BUILD_FINGERPRINT=google/angler/angler:6.0.1/MTC19T/2741993:user/release-keys \
+    PRIVATE_BUILD_DESC="angler-user 6.0.1 MTC19T 2741993 release-keys"
