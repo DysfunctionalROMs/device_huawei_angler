@@ -409,6 +409,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false
 
+# Enable B service adj transition
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.fw.bservice_enable=true \
+    ro.sys.fw.bservice_limit=5 \
+    ro.sys.fw.bservice_age=5000
+
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8994.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
