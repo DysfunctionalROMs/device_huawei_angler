@@ -6802,24 +6802,18 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Tusmobil Internet"
+  <apn carrier="INTERNET"
       mcc="293"
       mnc="70"
-      apn="internet.tusmobil.si"
-      user="tusmobil"
-      password="internet"
-      authtype="1"
+      apn="internet"
       type="default,supl"
   />
 
-  <apn carrier="Tusmobil MMS"
+  <apn carrier="MMS"
       mcc="293"
       mnc="70"
-      apn="mms.tusmobil.si"
-      user="tusmobil"
-      password="mms"
-      authtype="1"
-      mmsc="http://mms.tusmobil.si:8002"
+      apn="internet"
+      mmsc="http://mms.telemach.net:8002"
       mmsproxy="91.185.221.85"
       mmsport="8080"
       type="mms"
@@ -25323,6 +25317,16 @@
       server="*"
   />
 
+  <apn carrier="tplus"
+      mcc="450"
+      mnc="11"
+      apn="lte.sktelecom.com"
+      type="default,supl,mms,dun,ia"
+      mmsc="http://omms.nate.com:9082/oma_mms"
+      mmsproxy="smart.nate.com"
+      mmsport="9093"
+  />
+
   <apn carrier="SKT 3G INTERNET"
       mcc="450"
       mnc="11"
@@ -25354,16 +25358,6 @@
       mmsproxy="smart.nate.com"
       mmsport="9093"
       server="*"
-  />
-
-  <apn carrier="tplus"
-      mcc="450"
-      mnc="11"
-      apn="lte.sktelecom.com"
-      type="default,supl,mms,dun"
-      mmsc="http://omms.nate.com:9082/oma_mms"
-      mmsproxy="smart.nate.com"
-      mmsport="9093"
   />
 
   <apn carrier="LG uplus IA"
@@ -31819,15 +31813,10 @@
       type="mms"
   />
 
-  <apn carrier="VIVA3G"
+  <apn carrier="VIVA Internet"
       mcc="736"
       mnc="01"
       apn="internet.nuevatel.com"
-      user=""
-      password=""
-      proxy="192.168.101.4"
-      port="3128"
-      authtype="1"
       type="default,supl"
   />
 
