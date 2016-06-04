@@ -1,15 +1,15 @@
 [
   {
-  "remote": "github",
-  "repository": "drgroovestarr/kylo_kernel_angler",
-  "target_path": "kernel/huawei/angler",
-  "branch":      "m6.0.1"
+    "remote": "github",
+    "repository": "drgroovestarr/kylo_kernel_angler",
+    "target_path": "kernel/huawei/angler",
+    "branch":      "m6.0.1"
   },
   {
-  "remote": "github",
-  "repository": "drgroovestarr/vendor_huawei",
-  "target_path": "vendor/huawei",
-  "branch":      "m6.0.1"
+    "remote": "github",
+    "repository": "drgroovestarr/vendor_huawei",
+    "target_path": "vendor/huawei",
+    "branch":      "m6.0.1"
   },
   {
     "remote": "github",
@@ -28,5 +28,11 @@
     "repository": "BrokenROM/packages_apps_SnapdragonCamera",
     "target_path": "packages/apps/SnapdragonCamera",
     "branch": "m6.0.1"
+  },
+  {
+    "remote": "bb",
+    "repository": "drgroovestarr/aarch64-linux-android-5.x-kernel",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel",
+    "branch": "master"
   }  
 ]
