@@ -34,3 +34,6 @@ allow system_server zygote:process setsched;
 allow system_server fingerprintd_data_file:file r_file_perms;
 allow system_server fingerprintd_data_file:file create_file_perms;
 allow system_server fingerprintd_data_file:dir create_dir_perms;
+
+# idfk
+allow system_server system_server:unix_stream_socket 0x7704;
