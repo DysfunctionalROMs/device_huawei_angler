@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "drgroovestarr/vendor_huawei",
+    "repository": "drgroovestarr/angler_vendor",
     "target_path": "vendor/huawei",
     "branch":      "m6.0.1"
   },
