@@ -31,7 +31,7 @@
   },
   {
     "remote": "bb",
-    "repository": "drgroovestarr/aarch64-linux-android-5.x-kernel",
+    "repository": "uberlinaro_unofficial/aarch64-linux-android-5.x-kernel",
     "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel",
     "branch": "master"
   }  
